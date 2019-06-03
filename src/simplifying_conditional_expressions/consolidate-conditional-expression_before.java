@@ -1,13 +1,9 @@
 double disabilityAmount() {
-  if (seniority < 2) {
+    final bool seniorityLess = seniority < 2;
+    final bool mothsDisabled = monthsDisabled > 12 ;
+    final bool isPartTime;
+    final bool isNotElegible =seniorityLess&&mothsDisabled&&isParTime;
+  if (isNotElegible) {
     return 0;
   }
-  if (monthsDisabled > 12) {
-    return 0;
-  }
-  if (isPartTime) {
-    return 0;
-  }
-  // Compute the disability amount.
-  // ...
 }
