@@ -1,4 +1,4 @@
-double perimeter = 2 * (height + width);
+final double perimeter = 2 * (height + width);
 System.out.println(perimeter);
-area = height * width;
+final double area = height * width;
 System.out.println(area);
